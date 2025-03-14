@@ -4,14 +4,14 @@ int main(){
     int i;
 
     printf("##### Programa Calculo IMC ##### - Wadson Brito\n\n");
-    printf("Digite seu Peso: ");
+    printf("Digite seu Peso Kg: ");
     scanf("%f", &peso);
-    printf("Digite sua altura: ");
+    printf("Digite sua altura M: ");
     scanf("%f", &altura);
 
     imc = (peso / (altura * altura));  
     
-    printf("Seu IMC e: %.2f\n", imc);
+    printf("Seu IMC é: %.2f\n", imc);
 
     if(imc <= 18.5){
         printf("Magreza\n");
