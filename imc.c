@@ -1,8 +1,7 @@
 # include <stdio.h>
 int main(){
     float peso, altura, imc;
-    int i;
-
+    
     printf("##### Programa Calculo IMC ##### - Wadson Brito\n\n");
     printf("Digite seu Peso Kg: ");
     scanf("%f", &peso);
